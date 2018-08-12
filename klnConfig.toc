@@ -6,26 +6,11 @@
 ## X-Copyright: Copyright (c) 2018 Kellen.  All rights reserved.
 ## X-Website: https://github.com/mikattack/klnCore
 
-## Dependencies: klnCore
+## Dependencies: kln
 ## LoadOnDemand: 1
-
-lib\LibStub.lua
-lib\CallbackHandler.lua
-lib\LibSharedMedia.lua
 
 lib\kln-OptionsFrame.lua
 lib\kln-Header.lua
-
-lib\PhanxConfig-Button.lua
-lib\PhanxConfig-ColorPicker.lua
-lib\PhanxConfig-Checkbox.lua
-lib\PhanxConfig-Dropdown.lua
-lib\PhanxConfig-EditBox.lua
-lib\PhanxConfig-Header.lua
-lib\PhanxConfig-MediaDropdown.lua
-lib\PhanxConfig-OptionsPanel.lua
-lib\PhanxConfig-Panel.lua
-lib\PhanxConfig-Slider.lua
 
 panels.lua
 onload.lua
