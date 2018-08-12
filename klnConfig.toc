@@ -1,10 +1,10 @@
 ## Interface: 80000
 ## Title: |cFF7F2A90kln|r|Config
-## Notes: General configuration for Kellen's addons.
+## Notes: Configuration for the KellenUI.
 ## Author: Kellen
 ## DefaultState: Enabled
 ## X-Copyright: Copyright (c) 2018 Kellen.  All rights reserved.
-## X-Website: https://github.com/mikattack/klnCore
+## X-Website: https://github.com/mikattack/klnConfig
 
 ## Dependencies: kln
 ## LoadOnDemand: 1
