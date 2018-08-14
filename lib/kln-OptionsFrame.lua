@@ -25,13 +25,12 @@ if not lib then return end
 lib.objects = lib.objects or {}
 
 local widgetTypes = {
-  --"Button",
-  --"Checkbox",
+  "Button",
+  "Checkbox",
   --"ColorPicker",
-  --"Dropdown",
-  --"EditBox",
+  "Dropdown",
+  "EditBox",
   "Header",
-  --"KeyBinding",
   --"MediaDropdown",
   --"Panel",
   --"Slider",
