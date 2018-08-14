@@ -1,12 +1,20 @@
----------------------------------------------------------------------
--- Header
----------------------------------------------------------------------
+--[[
+Header
+
+Large font string with optional smaller descriptive text.
+
+New:
+  parent    - (frame) Frame to attach header to.
+  titleText - (string) Text of the title.
+  notesText - (string) Descriptive text. Optional.
+--]]
 
 local MINOR_VERSION = 20180810
 
 local lib, oldminor = LibStub:NewLibrary("kln-Header", MINOR_VERSION)
 if not lib then return end
 
+---------------------------------------------------------------------
 
 function lib:New(parent, titleText, notesText)
   assert(type(parent) == "table" and type(rawget(parent, 0)) == "userdata", "kln-Header: parent must be a frame")

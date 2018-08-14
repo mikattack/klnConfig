@@ -1,6 +1,21 @@
----------------------------------------------------------------------
--- OptionFrame
----------------------------------------------------------------------
+--[[
+OptionFrame
+
+Container for holding other configuration widgets.
+
+New:
+  name      - (string|frame) Name of frame. If a Frame object is
+              given, it becomes the basis of the new OptionsFrame.
+  parent    - (string) Name a pre-existing OptionsFrame. Will make
+              the new frame a subcategory of the given OptionsFrame
+              in the addon configuration selector (lefthand column).
+  construct - (function) One-time set up function.
+  refresh   - (function) Action to take when frame is updated.
+
+GetOptionsFrame:
+  name      - (string) Name of OptionsFrame to fetch.
+  parent    - (string) Parent name of the OptionsFrame to fetch.
+--]]
 
 local MINOR_VERSION = 20180810
 
