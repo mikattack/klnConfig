@@ -25,7 +25,7 @@ SetFormattedText: Set the edit box's text, `printf` style.
 
 local MINOR_VERSION = 20180810
 
-local lib, oldminor = LibStub:NewLibrary("PhanxConfig-EditBox", MINOR_VERSION)
+local lib, oldminor = LibStub:NewLibrary("kln-EditBox", MINOR_VERSION)
 if not lib then return end
 
 lib.editboxes = lib.editboxes or { } -- Pool
