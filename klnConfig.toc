@@ -10,7 +10,20 @@
 ## LoadOnDemand: 1
 
 lib\kln-OptionsFrame.lua
+lib\kln-Button.lua
+lib\kln-Checkbox.lua
+# lib\kln-ColorPicker.lua
+lib\kln-Dropdown.lua
+lib\kln-EditBox.lua
 lib\kln-Header.lua
+lib\kln-ListBox.lua
+lib\kln-Panel.lua
+# lib\kln-Slider.lua
 
-panels.lua
+# defaults/auras.lua
+
+# localization.lua
+main-panel.lua
+# aura-panel.lua
+profiles-panel.lua
 onload.lua
