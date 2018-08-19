@@ -25,7 +25,7 @@ function lib:New(parent, titleText, notesText)
     titleText = parent.name
   end
   
-  local title = parent:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
+  local title = parent:CreateFontString(nil, "ARTWORK", "GameFontNormalHuge")
   title:SetPoint("TOPLEFT", 16, -16)
   title:SetPoint("TOPRIGHT", -16, -16)
   title:SetJustifyH("LEFT")
@@ -33,7 +33,7 @@ function lib:New(parent, titleText, notesText)
 
   local notes
   if notesText then
-    notes = parent:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    notes = parent:CreateFontString(nil, "ARTWORK", "GameFontHighlightMedium")
     notes:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -8)
     notes:SetPoint("RIGHT", -16, 0)
     notes:SetHeight(32)
