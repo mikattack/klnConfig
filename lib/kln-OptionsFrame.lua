@@ -31,8 +31,9 @@ local widgetTypes = {
   "Dropdown",
   "EditBox",
   "Header",
+  "ListBox",
   --"MediaDropdown",
-  --"Panel",
+  "Panel",
   --"Slider",
 }
 
@@ -130,6 +131,7 @@ function lib:New(name, parent, construct, refresh)
   -- Attach valid widget functions
   for _, widget in pairs(widgetTypes) do
     local lib = LibStub("kln-"..widget, true)
+    -- print("kln-"..widget, lib)
     if lib then
       local method = "Create"..widget
       frame[method] = lib[method]
