@@ -4,8 +4,8 @@ EditBox
 Container that allows typed input.
 
 New:
-  parent      - (frame) Frame to attach button to.
-  labelText   - (string) Textual label of the button.
+  parent      - (frame) Frame to attach edit box to.
+  labelText   - (string) Textual label of the edit box.
   tooltipText - (string) Descriptive hover text. Optional.
   maxLetters  - (number) Maximum number of input characters.
   isNumeric   - (boolean) Only allow numeric input.
