@@ -31,6 +31,7 @@ local widgetTypes = {
   "Dropdown",
   "EditBox",
   "Header",
+  "Label",
   "ListBox",
   --"MediaDropdown",
   "Panel",
