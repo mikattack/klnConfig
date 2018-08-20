@@ -16,6 +16,7 @@ lib\kln-Checkbox.lua
 lib\kln-Dropdown.lua
 lib\kln-EditBox.lua
 lib\kln-Header.lua
+lib\kln-Label.lua
 lib\kln-ListBox.lua
 lib\kln-Panel.lua
 # lib\kln-Slider.lua
